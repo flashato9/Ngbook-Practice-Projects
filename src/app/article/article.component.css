@@ -1,0 +1,28 @@
+article{
+    display: flex;
+    width: 100rem;
+    margin-bottom: 1rem;
+}
+.four{
+    padding: 1rem 4rem;
+    margin-right: 1rem;
+}
+h4{
+    margin-top: 0px;
+    margin-left: 1rem;
+}
+ul{
+    margin-left: 0px !important;
+}
+.item{
+   
+        user-select: none;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+}
+.item:hover{
+    color:blue;
+    text-decoration: underline;
+}

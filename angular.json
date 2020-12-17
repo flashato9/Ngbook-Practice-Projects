@@ -24,9 +24,12 @@
               "src/assets"
             ],
             "styles": [
+              "semantic/dist/semantic.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "semantic/dist/semantic.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -120,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "angular-reddit2"
+  "defaultProject": "angular-reddit2",
+  "cli": {
+    "analytics": "04ede17d-15e1-4e02-9d93-a97f812a010c"
+  }
 }
