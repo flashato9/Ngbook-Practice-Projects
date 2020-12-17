@@ -12,6 +12,7 @@ describe('ArticleComponent', () => {
     })
     .compileComponents();
   });
+  //smam
 
   beforeEach(() => {
     fixture = TestBed.createComponent(ArticleComponent);
